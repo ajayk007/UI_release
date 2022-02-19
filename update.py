@@ -4,7 +4,7 @@ import json
 
 class Manager():
     
-    def __init__(self) -> None
+    def __init__(self) -> None:
   
     
     def process(self):
