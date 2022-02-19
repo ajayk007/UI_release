@@ -5,7 +5,7 @@ import json
 class Manager():
     
     def __init__(self) -> None:
-  
+        print("nothing here")
     
     def process(self):
         with open("../" + "UI_release" +"/UI_release.json") as json_file:
@@ -19,6 +19,7 @@ class Manager():
         version = version.split('.')
         version[1] = str(int(version[1]) + 1)
         return '.'.join(version)
+
 if __name__ == '__main__':
     m = Manager()
     m.process()
