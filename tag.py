@@ -25,7 +25,7 @@ class PR():
         
         return {
             "name": tag,
-            "body": "## What's Changed\n**Full Changelog**: https://github.com/ajayk007/myrepo_test/commits/" + tag
+            "body": "## What's Changed\n**Full Changelog**: https://github.com/amagimedia/bifrost/commits/" + tag
         }
     
     def create_release(self, tag):
